@@ -4,9 +4,9 @@ fun main(args: Array<String>){
     println("HelloWorld")
 
     println("> Please input Directory.")
-    var fileName: String? = readLine()
+    val fileName: String? = readLine()
 
-    var current: File = File(fileName)
+    val current = File(fileName)
 
     printDirectory(current, 0)
 }
